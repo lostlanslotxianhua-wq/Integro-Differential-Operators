@@ -1,4 +1,4 @@
-# 积分微分算子
+# 非局部微分算子
 
 <div align="center">
 
@@ -6,7 +6,7 @@
 [![创建时间](https://img.shields.io/badge/created-2026-blue.svg)]()
 [![状态](https://img.shields.io/badge/status-Active-brightgreen.svg)]()
 
-**关于积分微分算子及其应用的综合研究**
+**关于非局部微分算子及其应用的综合研究**
 
 [文档](#文档) • [功能特性](#功能特性) • [快速开始](#快速开始) • [贡献指南](#贡献指南)
 
@@ -16,7 +16,7 @@
 
 ## 📋 项目概览
 
-本仓库包含**积分微分算子**的研究、实现和探索 – 这是结合了积分和微分运算的数学实体。这些算子在高等数学、数学物理和各种工程应用中是基础性的。
+本仓库包含**非局部微分算子**的研究、实现和探索 – 这是结合了积分和微分运算的数学实体。这些算子在高等数学、数学物理和各种工程应用中是基础性的。
 
 积分微分算子自然出现在：
 - 🔹 分数阶微积分
@@ -59,11 +59,11 @@ Integro-Differential-Operators/
 
 ## 🎯 核心概念
 
-### 什么是积分微分算子？
+### 什么是非局部微分算子？
 
-积分微分算子是包含以下两者的数学算子：
-1. **微分分量** (导数)
-2. **积分分量** (积分)
+非局部微分算子是包含以下两者的数学算子：
+1. **微分分量** 
+2. **积分分量** 
 
 一般形式：
 ```
@@ -172,16 +172,13 @@ python -m pytest tests/test_operators.py
 ## 📚 参考资源
 
 ### 学术论文
-- Podlubny, I. (1999). Fractional Differential Equations
-- Kilbas, A. A., Srivastava, H. M., & Trujillo, J. J. (2006). Theory and Applications of Fractional Differential Equations
+- coming soon
 
 ### 教科书
-- Applied Integro-Differential Equations (多作者)
-- Advanced Mathematical Methods for Scientists and Engineers
+- 偏微分方程数值解法 孙志忠
 
 ### 在线资源
-- MathWorld Wolfram - [积分微分方程](https://mathworld.wolfram.com/)
-- 学术期刊和研究论文
+- coming soon
 
 ---
 
