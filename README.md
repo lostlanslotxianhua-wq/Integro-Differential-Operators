@@ -1,247 +1,247 @@
-# Integro-Differential-Operators
+# 积分微分算子
 
 <div align="center">
 
-[![Repository License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Created](https://img.shields.io/badge/created-2026-blue.svg)]()
-[![Status](https://img.shields.io/badge/status-Active-brightgreen.svg)]()
+[![仓库许可证](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![创建时间](https://img.shields.io/badge/created-2026-blue.svg)]()
+[![状态](https://img.shields.io/badge/status-Active-brightgreen.svg)]()
 
-**A Comprehensive Study on Integro-Differential Operators and Their Applications**
+**关于积分微分算子及其应用的综合研究**
 
-[Documentation](#documentation) • [Features](#features) • [Getting Started](#getting-started) • [Contributing](#contributing)
+[文档](#文档) • [功能特性](#功能特性) • [快速开始](#快速开始) • [贡献指南](#贡献指南)
 
 </div>
 
 ---
 
-## 📋 Overview
+## 📋 项目概览
 
-This repository contains research, implementations, and explorations of **integro-differential operators** – mathematical entities that combine both integral and differential operations. These operators are fundamental in advanced mathematics, mathematical physics, and various engineering applications.
+本仓库包含**积分微分算子**的研究、实现和探索 – 这是结合了积分和微分运算的数学实体。这些算子在高等数学、数学物理和各种工程应用中是基础性的。
 
-Integro-differential operators appear naturally in:
-- Fractional calculus
-- Integral equations
-- Mathematical modeling of complex systems
-- Physics and quantum mechanics
-- Signal processing and control theory
-
----
-
-## 🌟 Features
-
-- 📚 **Comprehensive Theory**: Detailed mathematical foundations and theoretical analysis
-- 💻 **Practical Implementations**: Working code examples and algorithms
-- 🔬 **Applications**: Real-world use cases and practical demonstrations
-- 📊 **Examples**: Illustrative examples with visualizations
-- 🧪 **Experiments**: Experimental code and research prototypes
+积分微分算子自然出现在：
+- 🔹 分数阶微积分
+- 🔹 积分方程
+- 🔹 复杂系统的数学建模
+- 🔹 物理学和量子力学
+- 🔹 信号处理和控制理论
 
 ---
 
-## 📁 Project Structure
+## 🌟 功能特性
+
+- 📚 **完整理论**: 详细的数学基础和理论分析
+- 💻 **实际实现**: 可工作的代码示例和算法
+- 🔬 **应用案例**: 真实世界的用途和实践演示
+- 📊 **示例代码**: 具有可视化的说明性示例
+- 🧪 **实验代码**: 实验代码和研究原型
+
+---
+
+## 📁 项目结构
 
 ```
 Integro-Differential-Operators/
-├── README.md                          # Project documentation
-├── docs/                              # Detailed documentation
-│   ├── theory/                        # Mathematical theory
-│   ├── applications/                  # Application examples
-│   └── references/                    # Academic references
-├── src/                               # Source code
-│   ├── implementations/               # Algorithm implementations
-│   ├── utils/                         # Utility functions
-│   └── examples/                      # Usage examples
-├── examples/                          # Standalone examples
-├── tests/                             # Unit tests and validation
-└── LICENSE                            # License information
+├── README.md                          # 项目文档
+├── docs/                              # 详细文档
+│   ├── theory/                        # 数学理论
+│   ├── applications/                  # 应用示例
+│   └── references/                    # 学术参考
+├── src/                               # 源代码
+│   ├── implementations/               # 算法实现
+│   ├── utils/                         # 工具函数
+│   └── examples/                      # 使用示例
+├── examples/                          # 独立示例
+├── tests/                             # 单元测试和验证
+└── LICENSE                            # 许可证信息
 ```
 
 ---
 
-## 🎯 Key Concepts
+## 🎯 核心概念
 
-### What are Integro-Differential Operators?
+### 什么是积分微分算子？
 
-Integro-differential operators are mathematical operators that involve both:
-1. **Differential components** (derivatives)
-2. **Integral components** (integrals)
+积分微分算子是包含以下两者的数学算子：
+1. **微分分量** (导数)
+2. **积分分量** (积分)
 
-General form:
+一般形式：
 ```
 L[f](x) = ∫ K(x,t) f(t) dt + d/dx[f(x)] + ...
 ```
 
-### Common Applications
+### 主要应用领域
 
-| Domain | Application |
-|--------|-------------|
-| **Physics** | Anomalous diffusion, quantum mechanics |
-| **Engineering** | Control systems, signal processing |
-| **Mathematics** | Fractional calculus, functional analysis |
-| **Biology** | Population dynamics, neuroscience |
+| 领域 | 应用 |
+|------|------|
+| **物理学** | 异常扩散、量子力学 |
+| **工程学** | 控制系统、信号处理 |
+| **数学** | 分数阶微积分、泛函分析 |
+| **生物学** | 种群动力学、神经科学 |
 
 ---
 
-## 🚀 Getting Started
+## 🚀 快速开始
 
-### Prerequisites
+### 前置要求
 
-- Python 3.8+ (or relevant programming language)
-- NumPy, SciPy for numerical computations
-- Matplotlib for visualization
-- Jupyter Notebook for interactive exploration
+- Python 3.8+ (或相关编程语言)
+- NumPy、SciPy 用于数值计算
+- Matplotlib 用于可视化
+- Jupyter Notebook 用于交互式探索
 
-### Installation
+### 安装步骤
 
 ```bash
-# Clone the repository
+# 克隆仓库
 git clone https://github.com/Igglepig-gle/Integro-Differential-Operators.git
 cd Integro-Differential-Operators
 
-# Install dependencies
+# 安装依赖
 pip install -r requirements.txt
 
-# (Optional) Install development dependencies
+# (可选) 安装开发依赖
 pip install -r requirements-dev.txt
 ```
 
-### Quick Example
+### 快速示例
 
 ```python
 from src.implementations import IntegroDifferentialOperator
 import numpy as np
 
-# Create a simple integro-differential operator
+# 创建一个简单的积分微分算子
 operator = IntegroDifferentialOperator()
 
-# Define a test function
+# 定义测试函数
 x = np.linspace(0, 1, 100)
 f = np.sin(np.pi * x)
 
-# Apply the operator
+# 应用算子
 result = operator.apply(f)
 ```
 
 ---
 
-## 📖 Documentation
+## 📖 文档
 
-Comprehensive documentation is available in the `/docs` directory:
+详细文档位于 `/docs` 目录：
 
-- **[Theoretical Foundations](docs/theory/README.md)** - Mathematical background and theory
-- **[Implementation Guide](docs/implementation.md)** - How to use the implementations
-- **[Applications & Examples](docs/applications/README.md)** - Real-world use cases
-- **[API Reference](docs/api.md)** - Detailed API documentation
-
----
-
-## 🔧 Usage Examples
-
-### Example 1: Basic Integration
-
-```python
-# Example usage coming soon
-```
-
-### Example 2: Advanced Applications
-
-```python
-# Example usage coming soon
-```
-
-For more examples, see the `/examples` directory.
+- **[理论基础](docs/theory/README.md)** - 数学背景和理论
+- **[实现指南](docs/implementation.md)** - 如何使用实现
+- **[应用与示例](docs/applications/README.md)** - 真实用例
+- **[API 参考](docs/api.md)** - 详细的 API 文档
 
 ---
 
-## 🧪 Testing
+## 🔧 使用示例
 
-Run the test suite to verify implementations:
+### 示例 1: 基础积分
+
+```python
+# 示例代码即将推出
+```
+
+### 示例 2: 高级应用
+
+```python
+# 示例代码即将推出
+```
+
+更多示例请参考 `/examples` 目录。
+
+---
+
+## 🧪 测试
+
+运行测试套件以验证实现：
 
 ```bash
-# Run all tests
+# 运行所有测试
 python -m pytest tests/
 
-# Run with coverage
+# 运行并查看覆盖率
 python -m pytest tests/ --cov=src
 
-# Run specific test file
+# 运行特定测试文件
 python -m pytest tests/test_operators.py
 ```
 
 ---
 
-## 📚 References & Further Reading
+## 📚 参考资源
 
-### Academic Papers
+### 学术论文
 - Podlubny, I. (1999). Fractional Differential Equations
 - Kilbas, A. A., Srivastava, H. M., & Trujillo, J. J. (2006). Theory and Applications of Fractional Differential Equations
 
-### Textbooks
-- Applied Integro-Differential Equations (Various authors)
+### 教科书
+- Applied Integro-Differential Equations (多作者)
 - Advanced Mathematical Methods for Scientists and Engineers
 
-### Online Resources
-- MathWorld Wolfram - [Integro-Differential Equations](https://mathworld.wolfram.com/)
-- Academic journals and research papers
+### 在线资源
+- MathWorld Wolfram - [积分微分方程](https://mathworld.wolfram.com/)
+- 学术期刊和研究论文
 
 ---
 
-## 🤝 Contributing
+## 🤝 贡献指南
 
-We welcome contributions! Whether you're interested in:
-- 🐛 Reporting bugs
-- 🎨 Improving documentation
-- 🔧 Adding new features
-- 🧪 Writing tests
+我们欢迎贡献！无论您有兴趣：
+- 🐛 报告错误
+- 🎨 改进文档
+- 🔧 添加新功能
+- 🧪 编写测试
 
-### How to Contribute
+### 如何贡献
 
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
+1. **Fork** 本仓库
+2. **创建** 功能分支 (`git checkout -b feature/amazing-feature`)
+3. **提交** 您的更改 (`git commit -m 'Add amazing feature'`)
+4. **推送** 到分支 (`git push origin feature/amazing-feature`)
+5. **开启** Pull Request
 
-Please ensure your contributions follow:
-- Code style guidelines
-- Include appropriate tests
-- Update documentation as needed
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+请确保您的贡献遵循：
+- 代码风格指南
+- 包含适当的测试
+- 根据需要更新文档
 
 ---
 
-## 👨‍💻 Author
+## 📝 许可证
+
+本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件。
+
+---
+
+## 👨‍💻 作者
 
 **Igglepig-gle**  
 - GitHub: [@Igglepig-gle](https://github.com/Igglepig-gle)
 
 ---
 
-## ⭐ Support
+## ⭐ 支持项目
 
-If you find this project helpful, please consider:
-- ⭐ Starring the repository
-- 🔗 Sharing it with others
-- 💬 Providing feedback and suggestions
-- 🐛 Reporting issues
+如果您觉得本项目有帮助，请考虑：
+- ⭐ 给仓库加星标
+- 🔗 与他人分享
+- 💬 提供反馈和建议
+- 🐛 报告问题
 
 ---
 
-## 📞 Contact & Issues
+## 📞 联系方式与问题反馈
 
-- **Issues**: [GitHub Issues](https://github.com/Igglepig-gle/Integro-Differential-Operators/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/Igglepig-gle/Integro-Differential-Operators/discussions)
+- **问题**: [GitHub Issues](https://github.com/Igglepig-gle/Integro-Differential-Operators/issues)
+- **讨论**: [GitHub Discussions](https://github.com/Igglepig-gle/Integro-Differential-Operators/discussions)
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by Igglepig-gle**
+**由 Igglepig-gle 用 ❤️ 制作**
 
-Last Updated: 2026-04-08
+最后更新: 2026-04-08
 
 </div>
